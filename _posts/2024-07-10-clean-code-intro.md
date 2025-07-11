@@ -3,6 +3,10 @@ title: "Why Clean Code Matters"
 date: 2024-07-10
 layout: single
 author_profile: true
+header:
+  overlay_image: /assets/images/clean-code-banner.jpg
+  overlay_filter: 0.3
+  caption: "Photo by [Photographer](https://unsplash.com)"
 categories: [CleanCode]
 tags: [Java, Clean Code, Software Engineering]
 ---

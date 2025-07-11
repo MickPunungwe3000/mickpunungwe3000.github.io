@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -88,6 +88,19 @@ naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
+# Navigation Links
+# These show in the header nav bar
+nav:
+  - title: "Home"
+    url: /
+  - title: "About Me"
+    url: /about/
+  - title: "Posts"
+    url: /categories/
+  - title: "Contact"
+    url: /contact/
+
+
 # Social Sharing
 twitter:
   username               :
@@ -114,17 +127,17 @@ analytics:
 # Site Author
 author:
   name             : "Maverik Punungwe"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/my-avatar.jpg"
   bio              : "Software engineer sharing practical guides on Java, design patterns, and clean code."
-  location         : "Somewhere"
-  email            :
+  location         : "South Africa"
+  email            : "maverick.punungwe@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.linkedin.com/in/maverikpunungwe/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
