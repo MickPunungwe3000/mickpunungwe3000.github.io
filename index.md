@@ -4,7 +4,7 @@ author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/image/my-avatar.jpg
+  overlay_image: /assets/image/clean-code-banner.jpg
   actions:
     - label: "View My Work"
       url: "/categories/"
