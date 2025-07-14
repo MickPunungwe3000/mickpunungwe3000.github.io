@@ -6,8 +6,8 @@ header:
   overlay_filter: "0.3"
   overlay_image: /assets/image/my-avatar.jpg
   actions:
-    - label: "Download My CV"
-      url: "/assets/Maverik_Punungwe_CV.pdf"
+    - label: "View My Work"
+      url: "/categories/"
 ---
 
 Welcome to my personal blog and portfolio.  
