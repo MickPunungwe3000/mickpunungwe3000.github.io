@@ -1,10 +1,10 @@
 ---
 title: "SOLID Principles Every Java Developer Should Know"
-date: 2024-07-17
+date: 2024-07-19
 layout: single
 author_profile: true
 header:
-  overlay_image: /assets/images/clean-code-banner.jpg
+  overlay_image: /assets/image/clean-code-banner.jpg
   overlay_filter: 0.3
 categories: [Architecture]
 tags: [Java, SOLID, Design Principles]

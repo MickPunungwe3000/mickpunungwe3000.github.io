@@ -1,10 +1,10 @@
 ---
 title: "Why Clean Code Matters"
-date: 2024-07-10
+date: 2024-07-12
 layout: single
 author_profile: true
 header:
-  overlay_image: /assets/images/clean-code-banner.jpg
+  overlay_image: /assets/image/clean-code-banner.jpg
   overlay_filter: 0.3
   caption: "Photo by [Photographer](https://unsplash.com)"
 categories: [CleanCode]
@@ -32,4 +32,4 @@ This post kicks off a 12-week journey where I’ll break down everything from Ja
 
 ---
 
-📌 **Follow me every week right here and on [LinkedIn](https://linkedin.com/in/MickPunungwe3000) as I level up.**
+📌 **Follow me every week right here and on [LinkedIn](https://www.linkedin.com/in/maverikpunungwe/) as I level up.**

@@ -12,6 +12,6 @@ header:
 
 Welcome to my personal blog and portfolio.  
 
-I share practical guides on Clean Code, Java, Software Architecture, and building real products. This is the kind of advice I wish I’d had early on—so in a way, I’m teaching my past self how to progress faster and level up with fewer detours.
+I share practical guides on Clean Code, Java, Software Architecture, and building real products. This is the kind of advice I wish I’d had early on , so in a way, I’m teaching my past self how to progress faster and level up with fewer detours.
 
 
