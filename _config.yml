@@ -88,18 +88,6 @@ naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
-# Navigation Links
-# These show in the header nav bar
-nav:
-  - title: "Home"
-    url: /
-  - title: "About Me"
-    url: /about/
-  - title: "Posts"
-    url: /categories/
-  - title: "Contact"
-    url: /contact/
-
 
 # Social Sharing
 twitter:
