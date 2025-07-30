@@ -17,7 +17,7 @@ You can reach me through any of the channels below:
 ---
 
 ## 📧 Email  
-**[your@email.com](mailto:maverick.punungwe@email.com)**  
+**[maverick.punungwe@email.com](mailto:maverick.punungwe@email.com)**  
 I check this daily. Expect a reply within 24 hours.
 
 ---
