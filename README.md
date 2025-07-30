@@ -48,7 +48,7 @@ Docker · Git · Android Studio · Visual Studio · IntelliJ · Bamboo · Jenkin
 ## 🔗 Connect With Me
 - 📂 [Portfolio](/categories/)
 - 👨‍💼 [LinkedIn](https://www.linkedin.com/in/maverikpunungwe)
-- 📬 [Gmail](mailto:maverik.punungwe@gmail.com)
+- 📬 [Gmail](mailto:maverick.punungwe@gmail.com)
 - 🧑‍💻 [GitHub](https://github.com/MickPunungwe3000)
 
 ---
