@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "Maverik Punungwe"
-  avatar           : "/assets/images/my-avatar.jpg"
+  avatar           : "/assets/image/my-avatar.jpg"
   bio              : "Software engineer sharing practical guides on Java, design patterns, and clean code."
   location         : "South Africa"
   email            : "maverick.punungwe@gmail.com"
