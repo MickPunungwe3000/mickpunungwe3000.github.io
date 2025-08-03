@@ -14,10 +14,9 @@ header:
       url: "/about/"
 ---
 
-
 Welcome to My Digital Forge
 
-I'm Maverik Punungwe , a seasoned Java and Spring engineer, system architect, and full-stack builder of real-world software. Not the kind of stuff that just looks good in a portfolio: The kind that actually runs in the wild, makes money, and solves real problems.
+I'm Maverik Punungwe , a seasoned software engineer, system architect, and full-stack builder of real-world software. Not the kind of stuff that just looks good in a portfolio: The kind that actually runs in the wild, makes money, and solves real problems.
 
 I’ve spent the last 7 years kneedeep in code & writing production systems, shipping working software, debugging messes at 2.47AM, and scaling infrastructure for companies that can’t afford to crash. If you’ve driven past a digital billboard anywhere in South Africa, odds are the system running the content came from something I built. I helped develop the backbone for the market leader in LED displays.
 

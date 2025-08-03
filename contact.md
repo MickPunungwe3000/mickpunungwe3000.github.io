@@ -5,8 +5,6 @@ permalink: /contact/
 author_profile: true
 ---
 
-# 📬 Get in Touch
-
 Whether you're looking to:
 
 - Talk clean code, architecture, design patterns , digital signage systems, electronic circuits
