@@ -4,6 +4,7 @@ title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
+
 ## 🚀 Featured Projects
 
 ### [☀️ Sun-Tracking Solar System](/projects/sun-tracker/)
