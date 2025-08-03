@@ -18,8 +18,8 @@ I started out in **Electronic Engineering**, which gave me a solid grasp of circ
 - **Java Backend Development**  REST APIs, microservices, queue-based systems  
 - **Spring Boot Architecture**  modular, scalable, production-ready systems  
 - **Embedded Software + IoT**  sensor networks, custom hardware integration  
-- **Full-Stack Dev** — Java specialist
-- **Digital Signage Systems** — Built the backend for the **market leader in LED billboards** across Southern Africa
+- **Full-Stack Dev**  Java specialist
+- **Digital Signage Systems**  Built the backend for the **market leader in LED billboards** across Southern Africa
 
 If you’ve seen a digital billboard in South Africa… chances are, my system is running behind it. I designed and shipped the core infrastructure for the dominant signage company , from player software to scheduling, streaming, and update protocols.
 
