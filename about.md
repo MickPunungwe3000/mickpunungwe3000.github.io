@@ -9,7 +9,7 @@ I'm **Maverik Punungwe**, a seasoned software engineer and systems architect bas
 
 For the past 7 years, I’ve been writing production-grade software , not demo apps or tutorials, but **real systems** that businesses depend on. My primary weapon of choice is **Java + Spring Boot**, but I’ve also built with **C#, C, Dart**, and multiple front-end stacks.
 
-I started out in **Electronic Engineering**, which gave me a solid grasp of circuits, embedded systems, and the low-level world — and that mindset still shapes how I write code: clean, efficient, resilient.
+I started out in **Electronic Engineering**, which gave me a solid grasp of circuits, embedded systems, and the low-level world, and that mindset still shapes how I write code: clean, efficient, resilient.
 
 ---
 
