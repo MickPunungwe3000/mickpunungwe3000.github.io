@@ -26,27 +26,27 @@ Here’s the real juice. Il try not to be academic but rather draw from projects
 
 - **Use meaningful names**  
   Don’t be clever. Be clear.  
-  ❌ `int d = 30;`  
-  ✅ `int deadlineInDays = 30;`
+  don't `int d = 30;`  
+  do `int deadlineInDays = 30;`
 
 - **Keep methods short and focused**  
   One method = one job. If your method has an “and” in the name, it's probably doing too much.
 
   ```java
-  // Bad
-  public void saveUserAndSendWelcomeEmail(User user) {
-      userRepository.save(user);
-      emailService.sendWelcome(user);
-  }
+    // Bad
+    public void saveUserAndSendWelcomeEmail(User user) {
+        userRepository.save(user);
+        emailService.sendWelcome(user);
+    }
 
-  // Better
-  public void saveUser(User user) {
-      userRepository.save(user);
-  }
+    // Better
+    public void saveUser(User user) {
+        userRepository.save(user);
+    }
 
-  public void sendWelcomeEmail(User user) {
-      emailService.sendWelcome(user);
-  }
+    public void sendWelcomeEmail(User user) {
+        emailService.sendWelcome(user);
+    }
 
 - **Kill duplication**  
 Repeated logic is a trap. One change = five fixes? That’s tech debt waiting to explode.
@@ -55,7 +55,7 @@ Repeated logic is a trap. One change = five fixes? That’s tech debt waiting to
 - **Choose clarity over cleverness**
 You’re not impressing anyone with regex magic or nested ternaries. Code is a team sport. Keep it simple stupid (KISS)
 
-### 🧠 Why You Should Care
+### Why You Should Care
 
 - Your code **becomes self-documenting** thus less need for scattered comments.
 - Debugging, refactoring, and extending features is way faster.
