@@ -22,45 +22,43 @@ Most apps follow this structure:
 Handles HTTP requests. No business logic here.
 
 ```java
-@RestController
-public class UserController {
-    @GetMapping("/users/{id}")
-    public UserDto getUser(@PathVariable Long id) {
-        return userService.getUser(id);
+    @RestController
+    public class UserController {
+        @GetMapping("/users/{id}")
+        public UserDto getUser(@PathVariable Long id) {
+            return userService.getUser(id);
+        }
     }
-}
 
 ### 2. Service Layer
 
 Business logic lives here. Talks to repos.
 
-@Service
-public class UserService {
-    public UserDto getUser(Long id) {
-        User user = repo.findById(id).orElseThrow();
-        return mapper.toDto(user);
+    @Service
+    public class UserService {
+        public UserDto getUser(Long id) {
+            User user = repo.findById(id).orElseThrow();
+            return mapper.toDto(user);
+        }
     }
-}
 
 ### 3. Repository Layer
 
 Handles database. Nothing else.
 
-@Repository
-public interface UserRepository extends JpaRepository<User, Long> {}
+    @Repository
+    public interface UserRepository extends JpaRepository<User, Long> {}
 
-Why it matters
+Straight-forward:
 
-    Easier to test
-
-    Easier to maintain
-
-    Grows better with time
+-Easier to test
+-Easier to maintain
+-Grows better with time
 
 Golden Rule:
-Don’t mix layers.
-Controllers don’t talk to DB.
-Services don’t return ResponseEntity.
+-Don’t mix layers.
+-Controllers don’t talk to DB.
+-Services don’t return ResponseEntity.
 
 Keep it clean. Keep it boring. That’s how systems survive.
 

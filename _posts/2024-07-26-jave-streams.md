@@ -21,7 +21,7 @@ Let’s go through **when to use Streams**, **how to use them cleanly**, and **w
 
 ---
 
-### ✅ When You *Should* Use Streams
+###  When You *Should* Use Streams
 
 - You’re transforming or filtering **collections**
 - You want to **avoid manual loops** and make intent clearer
@@ -30,7 +30,7 @@ Let’s go through **when to use Streams**, **how to use them cleanly**, and **w
 
 ---
 
-### 👎 When *Not* to Use Streams
+###  When *Not* to Use Streams
 
 - You need **indexed access** (e.g., modifying elements at `i`)
 - The logic **can’t be expressed as a one-liner**
@@ -39,30 +39,30 @@ Let’s go through **when to use Streams**, **how to use them cleanly**, and **w
 
 ---
 
-### 🧪 Real-World Example: Cleaning Up Messy Code
+### Real-World Example: Cleaning Up Messy Code
 
 #### 💩 The Old Way (Imperative, cluttered)
 
 ```java
-List<String> activeUserEmails = new ArrayList<>();
-for (User user : users) {
-    if (user.isActive()) {
-        activeUserEmails.add(user.getEmail());
+    List<String> activeUserEmails = new ArrayList<>();
+    for (User user : users) {
+        if (user.isActive()) {
+            activeUserEmails.add(user.getEmail());
+        }
     }
-}
 
 ####  The Stream Way (Clean, Intentional)
 
-List<String> activeUserEmails = users.stream()
-    .filter(User::isActive)
-    .map(User::getEmail)
-    .collect(Collectors.toList());
+    List<String> activeUserEmails = users.stream()
+        .filter(User::isActive)
+        .map(User::getEmail)
+        .collect(Collectors.toList());
 
 You instantly know what is happening:
 
->Filter active users
->Map to emails
->Collect
+-Filter active users
+-Map to emails
+-Collect
 
 That’s what clean code should feel like, readable without comments.
 
@@ -70,35 +70,35 @@ That’s what clean code should feel like, readable without comments.
 
 1. Using .peek() for side effects
 
-users.stream()
-    .peek(user -> sendEmail(user)) // 😬 don't do this
-    .collect(Collectors.toList());
+    users.stream()
+        .peek(user -> sendEmail(user)) // 😬 don't do this
+        .collect(Collectors.toList());
 
 peek() is meant for debugging. If you are doing side effects, just use forEach() or go imperative.
 
 2. Nesting Streams (a.k.a. the Brain Melter)
 
-List<String> itemNames = orders.stream()
-    .flatMap(order -> order.getItems().stream())
-    .filter(item -> item.isAvailable())
-    .map(Item::getName)
-    .collect(Collectors.toList());
+    List<String> itemNames = orders.stream()
+        .flatMap(order -> order.getItems().stream())
+        .filter(item -> item.isAvailable())
+        .map(Item::getName)
+        .collect(Collectors.toList());
 
 Technically legal, but gets messy fast. Break it up if it gets unreadable.
 
 Senior Tips
 
-    Use .collect(Collectors.toSet()) when you care about uniqueness
-    Use .distinct() only if the object has a proper .equals() and .hashCode()
-    flatMap() is your best friend when dealing with List<List<T>>`
-    Keep stream chains short — break into helper methods if needed
+-Use .collect(Collectors.toSet()) when you care about uniqueness
+-Use .distinct() only if the object has a proper .equals() and .hashCode()
+-flatMap() is your best friend when dealing with List<List<T>>`
+-Keep stream chains short — break into helper methods if needed
 
 Final Thought
 
 Ask yourself:
 
-    Is this code clearer than a loop?
-    Would someone else understand this instantly?
-    Am I forcing streams where simple code would do?
+-Is this code clearer than a loop?
+-Would someone else understand this instantly?
+-Am I forcing streams where simple code would do?
 
 📌 Follow along weekly right here or catch me on [LinkedIn](https://www.linkedin.com/in/maverikpunungwe/). I’m documenting the grind so you don’t have to make the same mistakes I did.
