@@ -1,5 +1,5 @@
 ---
-title: "⚡ Pay-As-You-Go Distributed Solar"
+title: "Pay-As-You-Go Distributed Solar"
 layout: single
 permalink: /projects/payg-solar/
 header:
@@ -8,18 +8,18 @@ header:
 tags: [STM32, Android, PHP, Java Spring, IoT, Solar, Embedded]
 ---
 
-## ⚡ Pay-As-You-Go Distributed Solar System
+##  Pay-As-You-Go Distributed Solar System
 
 A decentralized, token-based solar power solution designed for rural areas, built to deliver electricity to households that can’t afford full monthly bills, one token at a time.
 
 ---
 
-### 🏗️ Built Between 2016–2019  
+###  Built Between 2016–2019  
 This project came out of a real-world problem: **how do you deliver solar electricity to low-income homes in a way that’s affordable, tamper-proof, and offline-friendly?**
 
 ---
 
-### 🔧 Tech Stack (Then & Now)
+###  Tech Stack (Then & Now)
 
 **2016–2019 (MVP):**
 - **Microcontroller**: STM32 (bare-metal C)
@@ -35,7 +35,7 @@ This project came out of a real-world problem: **how do you deliver solar electr
 
 ---
 
-### 🔋 What It Does
+###  What It Does
 
 1. **Customer buys a token** using mobile USSD or app.
 2. **PHP API (legacy)** or **Java Spring (new)** generates a unique token.
@@ -45,7 +45,7 @@ This project came out of a real-world problem: **how do you deliver solar electr
 
 ---
 
-### ✅ Highlights
+###  Highlights
 
 - **Offline-ready**: Works with GSM or SMS , no internet required.
 - **Tamper detection**: Interrupts power on bypass attempts.
@@ -55,7 +55,7 @@ This project came out of a real-world problem: **how do you deliver solar electr
 
 ---
 
-### 🧠 Lessons Learned
+###  Lessons Learned
 
 - Real-world GSM is messy: signal strength and latency matter.
 - Token generation must be **secure but lightweight**.
@@ -65,7 +65,7 @@ This project came out of a real-world problem: **how do you deliver solar electr
 
 ---
 
-### 🔭 Future Potential
+###  Future Potential
 
 - Integrate **blockchain or token ledger** for village-level energy credits.
 - Add **remote monitoring** via LoRa or NB-IoT.

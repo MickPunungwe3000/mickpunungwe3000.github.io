@@ -6,11 +6,11 @@ header:
   overlay_filter: "0.3"
   overlay_image: /assets/image/clean-code-banner.jpg
   actions:
-    - label: "💡 Clean Code & Java Guides"
+    - label: " Clean Code & Java Guides"
       url: "/blog/"
-    - label: "🛠️ Real Projects I've Built"
+    - label: " Real Projects I've Built"
       url: "/projects/"
-    - label: "📖 My Journey in Tech"
+    - label: " My Journey in Tech"
       url: "/about/"
 ---
 

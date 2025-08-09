@@ -1,5 +1,5 @@
 ---
-title: "☀️ Sun-Tracking Solar System"
+title: "Sun-Tracking Solar System"
 layout: single
 permalink: /projects/sun-tracker/
 header:
@@ -8,7 +8,7 @@ header:
 tags: [STM32, Embedded Systems, Solar, IoT, C]
 ---
 
-## ☀️ Sun-Tracking Solar System
+##  Sun-Tracking Solar System
 
 This project maximizes solar panel efficiency by automatically rotating the panel to face the sun throughout the day using real-time light sensing and servo actuation.
 
@@ -24,7 +24,7 @@ This project maximizes solar panel efficiency by automatically rotating the pane
 
 ---
 
-### 💡 What It Does
+###  What It Does
 
 The system detects sunlight intensity from multiple angles using light-sensing diodes. Based on this input, it determines where the sun is and rotates the panel toward it using dual-axis motion.
 
@@ -32,7 +32,7 @@ The goal: **maximize solar energy capture without using GPS or time-based algori
 
 ---
 
-### ✅ Highlights
+###  Highlights
 
 - **Dual-axis tracking** for full daylight coverage
 - **Real-time analog feedback** from LDRs
@@ -42,7 +42,7 @@ The goal: **maximize solar energy capture without using GPS or time-based algori
 
 ---
 
-### 🧠 What I Learned
+###  What I Learned
 
 - Fine-tuning analog signal thresholds in harsh sunlight
 - Using PWM with STM32 timers for motor control

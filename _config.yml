@@ -326,3 +326,10 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+      

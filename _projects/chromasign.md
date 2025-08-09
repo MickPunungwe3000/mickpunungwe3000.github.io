@@ -1,5 +1,5 @@
 ---
-title: "🖥️ ChromaSign – LED Billboard Engine"
+title: "ChromaSign – LED Billboard Engine"
 layout: single
 permalink: /projects/chromasign/
 header:
@@ -8,13 +8,13 @@ header:
 tags: [Java, JavaFX, RTMP, WebSocket, Digital Signage, Embedded]
 ---
 
-## 🖥️ ChromaSign – LED Billboard Engine
+##  ChromaSign – LED Billboard Engine
 
 **ChromaSign** is a custom-built digital signage platform powering LED billboards across South Africa, designed for reliability, speed, and full control in environments where failure is not an option.
 
 ---
 
-### 🛠️ What I Built
+###  What I Built
 
 A full-stack signage system with:
 
@@ -26,7 +26,7 @@ Designed to replace clunky, expensive commercial signage solutions, and it works
 
 ---
 
-### ⚙️ Tech Stack
+###  Tech Stack
 
 - **Frontend**: JavaFX for the media player UI
 - **Backend**: Java (Spring Boot for control API)
@@ -37,7 +37,7 @@ Designed to replace clunky, expensive commercial signage solutions, and it works
 
 ---
 
-### 🎯 What It Does
+###  What It Does
 
 - Plays video, image, and text content on digital LED billboards
 - Allows operators to schedule playlists and override them live
@@ -46,7 +46,7 @@ Designed to replace clunky, expensive commercial signage solutions, and it works
 
 ---
 
-### 🚀 Key Features
+###  Key Features
 
 - **Real-time control** via WebSocket or admin panel
 - **Drag-and-drop playlist manager**
@@ -56,7 +56,7 @@ Designed to replace clunky, expensive commercial signage solutions, and it works
 
 ---
 
-### 🧠 Engineering Wins
+###  Engineering Wins
 
 - Built a **custom animation engine** using JavaFX for precise timing
 - Handled **frame-perfect media playback**
@@ -66,7 +66,7 @@ Designed to replace clunky, expensive commercial signage solutions, and it works
 
 ---
 
-### 🔥 In Production
+###  In Production
 
 - Used by **multiple billboard operators** across South Africa
 - Powers **street-level LED signs, mall screens, and event displays**
