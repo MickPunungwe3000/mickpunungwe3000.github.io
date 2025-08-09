@@ -13,7 +13,7 @@ I started out in **Electronic Engineering**, which gave me a solid grasp of circ
 
 ---
 
-# 🛠 What I Do
+# What I Do
 
 - **Java Backend Development**  REST APIs, microservices, queue-based systems  
 - **Spring Boot Architecture**  modular, scalable, production-ready systems  
@@ -22,40 +22,31 @@ I started out in **Electronic Engineering**, which gave me a solid grasp of circ
 - **Digital Signage Systems**  Built the backend for the **market leader in LED billboards** across Southern Africa
 
 If you’ve seen a digital billboard in South Africa… chances are, my system is running behind it. I designed and shipped the core infrastructure for the dominant signage company , from player software to scheduling, streaming, and update protocols.
-
 ---
-
-# 🧠 What Drives Me
+# What Drives Me
 
 I believe in building things that **actually work**. That survive pressure. That deliver value without crumbling under load.
-
 I’m obsessed with:
 - **Clean Code**  because maintenance is everything  
 - **System Design**  because scale always comes faster than expected  
 - **Teaching by writing**  because the best way to master something is to explain it  
 
 This blog is me passing the torch backward, sharing the tools, principles, and mindset shifts that helped me avoid years of detours.
-
 ---
-
-# 📚 Outside of Code
+# Outside of Code
 
 - I read everything from **MJ DeMarco** to **Robert Kiyosaki**  
-- I design circuits and IoT prototypes for fun  
+- I design electronic circuits and IoT prototypes for fun  
 - I lift weights, write comic scripts, and kick around a soccer ball  
 - I’ve solo traveled to **Zanzibar**, **Kenya**, and **Mozambique**
-
 ---
-
-# 📜 Some other facts about me
+# Some other facts about me
 
 - 🎓 **BTech in Electronic Engineering**, Harare Institute of Technology (2016)  
 - 🧰 Tech Stack: Java, Spring, C#, C, Python, Kotlin, Dart, Flutter, SQL Server, embedded systems  
 - 🧠 Interests: Clean code, system architecture, robotics, energy tech, mindset and personal growth  
 - 💼 Based in: South Africa  
 - 📬 Contact: [maverick.punungwe@gmail.com](mailto:maverick.punungwe@gmail.com)  
-
 ---
-
 > “I build software that ships, scales, and stays clean.”
 
