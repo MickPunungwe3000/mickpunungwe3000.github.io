@@ -43,7 +43,6 @@ Let’s go through **when to use Streams**, **how to use them cleanly**, and **w
 
 #### 💩 The Old Way (Imperative, cluttered)
 
-```java
     List<String> activeUserEmails = new ArrayList<>();
     for (User user : users) {
         if (user.isActive()) {

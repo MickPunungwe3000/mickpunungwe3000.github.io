@@ -36,17 +36,17 @@ If your class is juggling different concerns, reading files, validating inputs, 
 **Example**
 
 ```java
-// BAD: One class doing multiple unrelated jobs
-class UserManager {
-    void saveUser(User user) { ... }
-    void sendWelcomeEmail(User user) { ... } // Shouldn’t live here
-    void logActivity(User user) { ... }     // Nope
-}
+    // BAD: One class doing multiple unrelated jobs
+    class UserManager {
+        void saveUser(User user) { ... }
+        void sendWelcomeEmail(User user) { ... } // Shouldn’t live here
+        void logActivity(User user) { ... }     // Nope
+    }
 
-// BETTER: Separate classes by responsibility
-class UserRepository { void save(User user) { ... } }
-class EmailService { void sendWelcome(User user) { ... } }
-class AuditLogger { void logActivity(User user) { ... } }
+    // BETTER: Separate classes by responsibility
+    class UserRepository { void save(User user) { ... } }
+    class EmailService { void sendWelcome(User user) { ... } }
+    class AuditLogger { void logActivity(User user) { ... } }
 
 ### 🔌 O – Open/Closed Principle (OCP)
 
@@ -178,10 +178,10 @@ It’s about writing code that survives growth, change, and real-world stress.
 
 If you ever catch yourself:
 
-    >Editing the same class for multiple features
-    >Dreading changes because everything’s tangled
-    >Implementing methods you don’t need
-    >Struggling to test or swap dependencies
+-Editing the same class for multiple features
+-Dreading changes because everything’s tangled
+-Implementing methods you don’t need
+-Struggling to test or swap dependencies
 
 Then yes, you need SOLID.
 And you need it now.

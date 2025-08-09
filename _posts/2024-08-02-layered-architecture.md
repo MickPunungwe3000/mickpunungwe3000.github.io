@@ -21,7 +21,6 @@ Most apps follow this structure:
 ### 1. **Controller Layer**
 Handles HTTP requests. No business logic here.
 
-```java
     @RestController
     public class UserController {
         @GetMapping("/users/{id}")

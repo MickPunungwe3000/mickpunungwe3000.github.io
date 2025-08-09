@@ -32,7 +32,6 @@ Here’s the real juice. Il try not to be academic but rather draw from projects
 - **Keep methods short and focused**  
   One method = one job. If your method has an “and” in the name, it's probably doing too much.
 
-  ```java
     // Bad
     public void saveUserAndSendWelcomeEmail(User user) {
         userRepository.save(user);
