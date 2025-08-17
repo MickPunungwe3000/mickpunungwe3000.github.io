@@ -1,6 +1,6 @@
 ---
 title: "The Real Signs You Need SOLID Principles in Your Code"
-date: 2024-07-19
+date: 2025-07-19
 layout: single
 author_profile: true
 header:

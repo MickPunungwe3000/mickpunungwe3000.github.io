@@ -1,6 +1,6 @@
 ---
 title: "How to Use Java Streams Effectively"
-date: 2024-07-26
+date: 2025-07-26
 layout: single
 author_profile: true
 header:

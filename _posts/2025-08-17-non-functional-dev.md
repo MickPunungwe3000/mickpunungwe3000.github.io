@@ -1,6 +1,6 @@
 ---
 title: "Non-functional Development"
-date: 2024-08-17
+date: 2025-08-17
 layout: single
 author_profile: true
 header:

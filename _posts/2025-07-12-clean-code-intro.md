@@ -1,6 +1,6 @@
 ---
 title: "Why Clean Code Matters"
-date: 2024-07-12
+date: 2025-07-12
 layout: single
 author_profile: true
 header:
