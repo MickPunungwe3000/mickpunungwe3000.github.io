@@ -77,4 +77,4 @@ Non-functional development makes your app *usable at scale*.
 Both matter.  
 But if you skip the non-functional side, you’ll always be firefighting instead of building.  
 
-📌 Follow along weekly right here or catch me on [LinkedIn](https://www.linkedin.com/in/maverikpunungwe/) — learning the hard lessons so you don’t have to.  
+📌 Follow along weekly right here or catch me on [LinkedIn](https://www.linkedin.com/in/maverikpunungwe/) - learning the hard lessons so you don’t have to.  

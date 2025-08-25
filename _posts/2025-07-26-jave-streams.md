@@ -90,7 +90,7 @@ Senior Tips
 -Use .collect(Collectors.toSet()) when you care about uniqueness
 -Use .distinct() only if the object has a proper .equals() and .hashCode()
 -flatMap() is your best friend when dealing with List<List<T>>`
--Keep stream chains short — break into helper methods if needed
+-Keep stream chains short - break into helper methods if needed
 
 Final Thought
 

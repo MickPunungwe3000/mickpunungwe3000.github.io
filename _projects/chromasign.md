@@ -74,7 +74,7 @@ Designed to replace clunky, expensive commercial signage solutions, and it works
 
 ---
 
-> _"The commercial signage space is bloated and overpriced. I built a remote signage system to give clients full control — and save them a ton of money."_  
+> _"The commercial signage space is bloated and overpriced. I built a remote signage system to give clients full control - and save them a ton of money."_  
 
 ---
 📌 Follow along weekly right here or catch me on [LinkedIn](https://www.linkedin.com/in/maverikpunungwe/). I’m documenting the grind so you don’t have to make the same mistakes I did.

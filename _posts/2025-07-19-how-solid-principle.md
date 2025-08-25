@@ -83,7 +83,7 @@ Ask this:
 
 ### 🐧 L – Liskov Substitution Principle (LSP)
 
-**Subclasses should behave like their parent class — no surprises.**
+**Subclasses should behave like their parent class - no surprises.**
 
 If your subclass throws exceptions or breaks assumptions just to “fit in,” it doesn’t belong.
 
