@@ -10,7 +10,7 @@ categories: [Architecture]
 tags: [Java, Spring, Clean Code, Best Practices, Architecture]
 ---
 
-## Load Balancing — A Dev’s Perspective
+## Load Balancing - A Dev’s Perspective
 
 This post is inspired by some very *recent events*… wink wink 😅  
 Let’s just say one server took the fall for the whole squad.  
@@ -117,4 +117,4 @@ Our job is to make sure our service doesn’t choke when it’s actually balance
 Do it right, and 1,000 TPS spreads smoothly across the cluster.
 Do it wrong, midnight calls.
 
-📌 Follow along weekly right here or catch me on [LinkedIn](https://www.linkedin.com/in/maverikpunungwe/) — learning the hard lessons so you don’t have to.  
+📌 Follow along weekly right here or catch me on [LinkedIn](https://www.linkedin.com/in/maverikpunungwe/) - learning the hard lessons so you don’t have to.  
