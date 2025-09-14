@@ -1,6 +1,6 @@
 ---
 title: "Make Logging Work for You"
-date: 2025-09-09
+date: 2025-09-06
 layout: single
 author_profile: true
 header:
