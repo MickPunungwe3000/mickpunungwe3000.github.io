@@ -77,5 +77,4 @@ That’s where the real progress happens.
 ---
 
 I’m a senior software engineer sharing lessons from the field.  
-If you found this useful, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/maverikpunungwe/).  
-I post about Java, Spring, architecture, and the human side of engineering — because growth isn’t just technical.
+If you found this useful, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/maverikpunungwe/).
