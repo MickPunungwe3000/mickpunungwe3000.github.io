@@ -31,7 +31,7 @@ Growth never feels comfortable. It’s supposed to challenge the parts of you th
 
 ## Career Progression
 
-My people have a saying: *“Kure kwegava ndiko kusina mutsvubvu.”* If you asked my grandmother for a direct translation, she’d probably talk about a, “determined jackal on a snack mission” which always makes me chuckle.
+My people have a saying: *“Kure kwegava ndiko kusina mutsubvu.”* If you asked my grandmother for a direct translation, she’d probably talk about a, “determined jackal on a snack mission” which always makes me chuckle.
 
 But the true spirit of the proverb runs deeper: **“No distance is too far where there is motivation.”**  
 That’s what sticks with me. It’s not about chasing a destination like “Senior” or “Staff,” but about the intent behind the journey itself.  
