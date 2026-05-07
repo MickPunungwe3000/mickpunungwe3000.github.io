@@ -39,3 +39,25 @@
     }
   }
 }
+/* Reduce blog post font sizes */
+.page__content {
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.page__content p,
+.page__content li {
+  font-size: 0.9rem;
+}
+
+.page__content h1 {
+  font-size: 1.8rem;
+}
+
+.page__content h2 {
+  font-size: 1.35rem;
+}
+
+.page__content h3 {
+  font-size: 1.15rem;
+}
