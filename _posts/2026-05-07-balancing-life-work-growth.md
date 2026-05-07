@@ -23,8 +23,8 @@ And honestly, I think that’s part of what makes this phase of life interesting
 
 ## Family Changes Your Relationship With Time
 
-I’m currently raising two little humans.  
-My son is 4, my daughter is 2, and somehow they’ve completely taken over my life in the best possible way.  
+My wife and I are currently raising two little humans together.  
+My son is 4, my daughter is 2, and somehow they’ve completely taken over our lives in the best possible way.  
 
 I also happen to be the fun parent sometimes, which means the kids are currently learning WWE moves and seem to enjoy practicing them on me regularly.  
 (Disclaimer: please do not try this at home 😂)
