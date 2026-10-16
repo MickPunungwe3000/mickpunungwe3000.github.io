@@ -1,4 +1,5 @@
 ---
+published: true
 title: "Non-functional Development"
 date: 2025-08-17
 layout: single

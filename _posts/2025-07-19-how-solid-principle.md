@@ -1,4 +1,5 @@
 ---
+published: true
 title: "The Real Signs You Need SOLID Principles in Your Code"
 date: 2025-07-19
 layout: single
@@ -47,6 +48,8 @@ If your class is juggling different concerns, reading files, validating inputs, 
     class UserRepository { void save(User user) { ... } }
     class EmailService { void sendWelcome(User user) { ... } }
     class AuditLogger { void logActivity(User user) { ... } }
+
+```
 
 ### 🔌 O – Open/Closed Principle (OCP)
 

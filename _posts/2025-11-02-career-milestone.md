@@ -1,4 +1,5 @@
 ---
+published: true
 title: "Starting a New Chapter as a Senior Developer & Reflections"
 date: 2025-11-02
 layout: single

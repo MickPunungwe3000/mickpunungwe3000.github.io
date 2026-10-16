@@ -1,4 +1,5 @@
 ---
+published: true
 title: "How to Use Java Streams Effectively"
 date: 2025-07-26
 layout: single

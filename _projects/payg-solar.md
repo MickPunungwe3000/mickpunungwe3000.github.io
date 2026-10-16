@@ -2,9 +2,6 @@
 title: "Pay-As-You-Go Distributed Solar"
 layout: single
 permalink: /projects/payg-solar/
-header:
-  overlay_image: /assets/images/payg-solar.jpg
-  overlay_filter: 0.3
 tags: [STM32, Android, PHP, Java Spring, IoT, Solar, Embedded]
 ---
 

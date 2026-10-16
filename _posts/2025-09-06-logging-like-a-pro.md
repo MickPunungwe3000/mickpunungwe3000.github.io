@@ -1,4 +1,5 @@
 ---
+published: true
 title: "Make Logging Work for You"
 date: 2025-09-06
 layout: single

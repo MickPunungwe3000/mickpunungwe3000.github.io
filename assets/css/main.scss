@@ -1,31 +1,87 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 search: false
 ---
-
 @charset "utf-8";
+
+// Override the skin through its supported Sass variables.
+$background-color: #fcfcfa;
+$text-color: #222c34;
+$muted-text-color: #505d66;
+$primary-color: #185775;
+$link-color: #185775;
+$border-color: #dce1e2;
+$footer-background-color: #183342;
+$global-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-
-/* Reduce overall typography */
 html {
-  font-size: 12px;
+  font-size: 16px;
+  @include breakpoint($medium) { font-size: 17px; }
+  @include breakpoint($large) { font-size: 18px; }
+  @include breakpoint($x-large) { font-size: 18px; }
+}
 
-  @include breakpoint($small) {
-    font-size: 12px;
-  }
+body { line-height: 1.7; }
+#main, .sidebar, .page__related { animation: none; }
+a { text-underline-offset: 0.18em; }
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+  outline: 3px solid #a34b12;
+  outline-offset: 4px;
+}
+.masthead { border-bottom: 1px solid $border-color; }
+.masthead__inner-wrap { padding-block: 1.1em; }
+.site-title { font-weight: 700; letter-spacing: -0.025em; }
+.greedy-nav { background: $background-color; }
+.page__title { line-height: 1.2; letter-spacing: -0.025em; }
+.page__content { max-width: 72ch; overflow-wrap: break-word; }
+.page__content p, .page__content li { font-size: 1em; }
+.page__content h2 { margin-top: 2em; }
+.page__content h3 { margin-top: 1.6em; }
+.page__content pre { max-width: 100%; overflow-x: auto; font-size: 0.85em; line-height: 1.6; }
+.page__content table { display: block; max-width: 100%; overflow-x: auto; }
+.page__content img { height: auto; }
+.page__hero--overlay {
+  padding-block: 2.5em;
+  margin-bottom: 1.5em;
+  .page__title { max-width: 24ch; font-size: clamp(1.8rem, 4vw, 2.8rem); }
+  .page__lead { max-width: 65ch; font-size: 1rem; }
+}
+.archive__item-title { line-height: 1.35; }
+.archive__item-excerpt { line-height: 1.65; }
+.sidebar .author__bio { line-height: 1.65; }
+.page__footer { margin-top: 4em; }
+.page__footer a { color: #fff; }
 
-  @include breakpoint($medium) {
-    font-size: 14px;
-  }
-
-  @include breakpoint($large) {
-    font-size: 16px;
-  }
-
-  @include breakpoint($x-large) {
-    font-size: 18px;
-  }
+#main.platform-home { max-width: 1120px; padding-inline: 1.25rem; }
+.platform-intro { padding-block: clamp(2.5rem, 7vw, 5.5rem); max-width: 830px; }
+.platform-eyebrow { color: $muted-text-color; font-size: 0.8rem; font-weight: 650; letter-spacing: 0.055em; }
+.platform-intro h1 { margin: 0.5em 0; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.13; letter-spacing: -0.045em; }
+.platform-intro > p { max-width: 65ch; }
+.platform-intro .platform-lead { font-size: 1.2rem; line-height: 1.55; }
+.platform-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin-top: 1.8rem; }
+.platform-actions .btn { margin: 0; font-size: 0.9rem; padding: 0.9em 1.2em; }
+.platform-section { border-top: 1px solid $border-color; padding-block: 2.5rem; }
+.platform-section h2 { margin-top: 0; font-size: 1.5rem; letter-spacing: -0.025em; line-height: 1.3; }
+.platform-section-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.5rem 1rem; }
+.platform-section-heading > a { font-size: 0.9rem; }
+.platform-writing { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 3rem; margin-top: 1.2rem; }
+.platform-entry h3 { margin: 0.35em 0 0.6em; font-size: 1.2rem; line-height: 1.4; }
+.platform-entry h3 a, .platform-projects h3 a { color: $text-color; }
+.platform-entry p { margin: 0; font-size: 0.95rem; }
+.platform-entry .platform-date { font-size: 0.78rem; color: $muted-text-color; }
+.platform-section-intro, .platform-contact p { max-width: 68ch; }
+.platform-projects { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; margin-block: 1.5rem; }
+.platform-projects article { border-left: 2px solid $primary-color; padding-left: 1rem; }
+.platform-projects h3 { margin-top: 0; font-size: 1.05rem; }
+.platform-projects p { margin-bottom: 0; font-size: 0.9rem; }
+.platform-contact h2 { max-width: 32ch; }
+@media (max-width: 640px) {
+  .platform-writing, .platform-projects { grid-template-columns: 1fr; gap: 1.75rem; }
+  .platform-intro h1 br { display: none; }
+  .platform-section { padding-block: 2rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }

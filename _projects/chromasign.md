@@ -2,9 +2,6 @@
 title: "ChromaSign – LED Billboard Engine"
 layout: single
 permalink: /projects/chromasign/
-header:
-  overlay_image: /assets/images/chromasign-banner.jpg
-  overlay_filter: 0.3
 tags: [Java, JavaFX, RTMP, WebSocket, Digital Signage, Embedded]
 ---
 

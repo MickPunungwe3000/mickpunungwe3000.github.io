@@ -24,7 +24,9 @@
       
       {% if post.excerpt %}
         <p class="archive__item-excerpt" itemprop="description">
-          {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+          {% assign paragraphs = post.content | markdownify | split: "<p>" %}
+          {% assign introduction = paragraphs[1] | split: "</p>" | first | strip_html | strip %}
+          {{ post.description | default: introduction | truncate: 160 }}
         </p>
       {% endif %}
     </div>

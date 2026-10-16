@@ -1,4 +1,5 @@
 ---
+published: true
 title: "Balancing Engineering, Growth, and Family Life"
 date: 2026-05-07
 layout: single

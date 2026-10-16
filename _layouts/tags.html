@@ -1,7 +1,25 @@
 ---
 layout: archive
 ---
-
 {{ content }}
 
-{% include posts-taxonomy.html taxonomies=site.tags %}
+{% assign documents = site.posts | concat: site.projects %}
+{% assign tag_names = "" | split: "" %}
+{% for document in documents %}
+  {% if document.tags %}{% assign tag_names = tag_names | concat: document.tags %}{% endif %}
+{% endfor %}
+{% assign tag_names = tag_names | uniq | sort_natural %}
+<ul class="taxonomy__index">
+  {% for tag in tag_names %}
+    {% assign entries = documents | where_exp: "item", "item.tags contains tag" %}
+    <li><a href="#{{ tag | slugify }}"><strong>{{ tag | escape }}</strong> <span class="taxonomy__count">{{ entries.size }}</span></a></li>
+  {% endfor %}
+</ul>
+{% for tag in tag_names %}
+  {% assign entries = documents | where_exp: "item", "item.tags contains tag" %}
+  <section id="{{ tag | slugify }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ tag | escape }}</h2>
+    {% include documents-collection.html entries=entries type='list' %}
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+{% endfor %}

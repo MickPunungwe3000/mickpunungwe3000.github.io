@@ -2,9 +2,6 @@
 title: "Sun-Tracking Solar System"
 layout: single
 permalink: /projects/sun-tracker/
-header:
-  overlay_image: /assets/images/sun-tracker.jpg
-  overlay_filter: 0.3
 tags: [STM32, Embedded Systems, Solar, IoT, C]
 ---
 

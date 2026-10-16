@@ -1,4 +1,5 @@
 ---
+published: true
 title: "Why Clean Code Matters"
 date: 2025-07-12
 layout: single

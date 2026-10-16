@@ -1,0 +1,6 @@
+# Local only: never use this configuration for deployment.
+unpublished: true
+show_drafts: true
+future: true
+url: "http://127.0.0.1:4000"
+destination: _site-preview

@@ -1,4 +1,5 @@
 ---
+published: true
 title: "Layered Architecture Simplified"
 date: 2025-08-02
 layout: single

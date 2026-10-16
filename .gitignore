@@ -12,7 +12,6 @@
 # Ruby Gem
 *.gem
 .bundle
-Gemfile.lock
 **/vendor/bundle
 
 # Node.js and NPM
@@ -30,3 +29,10 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Private local draft preview
+_site-preview/
+__pycache__/
+
+# Local build runtime, dependencies and validation logs
+/vendor/

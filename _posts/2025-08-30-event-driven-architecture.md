@@ -1,4 +1,5 @@
 ---
+published: true
 title: "Event-Driven Architecture with Spring Boot"
 date: 2025-08-30
 layout: single

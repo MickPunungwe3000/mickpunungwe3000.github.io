@@ -21,10 +21,10 @@ title                    : "Maverik Punungwe"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Maverik Punungwe"
-description              : "Clean Code, Java, Software Architecture, and Developer Insights"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+description              : "Software architecture, product engineering and industrial technology. Writing by Maverik Punungwe, Senior Software Engineer."
+url                      : "https://mickpunungwe3000.github.io"
+baseurl                  : ""
+repository               : "MickPunungwe3000/mickpunungwe3000.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -116,13 +116,10 @@ analytics:
 author:
   name             : "Maverik Punungwe"
   avatar           : "/assets/image/my-avatar.jpg"
-  bio              : "Software engineer sharing practical guides on Java, design patterns, and clean code."
+  bio              : "Senior Software Engineer. Enterprise software, product building and industrial technology."
   location         : "South Africa"
   email            : "maverick.punungwe@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
     - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/maverikpunungwe/"
@@ -134,7 +131,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/MickPunungwe3000"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -160,7 +157,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-  since: "2013"
+  since: "2025"
 
 
 # Reading Files
@@ -192,6 +189,11 @@ exclude:
   - package-lock.json
   - Rakefile
   - README
+  - AGENTS.md
+  - editorial
+  - scripts
+  - _config.preview.yml
+  - _site-preview
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
@@ -230,11 +232,11 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Africa/Johannesburg
 
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+paginate: # Disabled: homepage has selected writing; /blog/ lists the full archive.
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
@@ -320,6 +322,7 @@ defaults:
       path: ""
       type: posts
     values:
+      published: false # Existing posts explicitly opt in; new posts stay private.
       layout: single
       author_profile: true
       read_time: true
@@ -333,3 +336,8 @@ collections:
     output: true
     permalink: /projects/:name/
       
+
+# Production content visibility; private preview overrides these locally.
+show_drafts: false
+unpublished: false
+future: false

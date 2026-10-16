@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<main id="main" class="platform-home">
+  <section class="platform-intro" aria-labelledby="page-title">
+    <p class="platform-eyebrow">Maverik Punungwe · Senior Software Engineer</p>
+    <h1 id="page-title">Engineering, products <br>and the systems behind them.</h1>
+    <p class="platform-lead">I build software for real operational needs, from enterprise banking systems to digital signage and embedded technology.</p>
+    <p>Over eight years in engineering have taken me from electronics and industrial systems to Java, Spring Boot and distributed software. I write about the decisions, constraints and lessons that shape the work.</p>
+    <div class="platform-actions"><a class="btn btn--primary" href="{{ '/blog/' | relative_url }}">Explore the writing</a><a href="{{ '/about/' | relative_url }}">About my work <span aria-hidden="true">→</span></a></div>
+  </section>
+  <section class="platform-section" aria-labelledby="writing-title">
+    <div class="platform-section-heading"><h2 id="writing-title">Recent writing</h2><a href="{{ '/blog/' | relative_url }}">All articles <span aria-hidden="true">→</span></a></div>
+    <div class="platform-writing">
+    {% for post in site.posts limit: 4 %}
+      <article class="platform-entry">
+        <p class="platform-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d %B %Y' }}</time></p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        {% assign paragraphs = post.content | markdownify | split: "<p>" %}
+        {% assign introduction = paragraphs[1] | split: "</p>" | first | strip_html | strip %}
+        <p>{{ post.description | default: introduction | truncatewords: 36 }}</p>
+      </article>
+    {% endfor %}
+    </div>
+  </section>
+  <section class="platform-section" aria-labelledby="work-title">
+    <p class="platform-eyebrow">Software meets the physical world</p>
+    <h2 id="work-title">Products and engineering projects</h2>
+    <p class="platform-section-intro">My Electronic Engineering background continues to shape how I think about software: physical constraints, operational reliability and the people using a system all matter.</p>
+    <div class="platform-projects">
+      <article><h3><a href="{{ '/projects/chromasign/' | relative_url }}">Digital signage</a></h3><p>Player software, content scheduling and remote control for digital displays.</p></article>
+      <article><h3><a href="{{ '/projects/payg-solar/' | relative_url }}">Distributed solar</a></h3><p>Embedded control and token-based access to solar electricity.</p></article>
+      <article><h3><a href="{{ '/projects/sun-tracker/' | relative_url }}">Sun tracking</a></h3><p>Exploring sensors, motor control and the constraints of physical systems.</p></article>
+    </div>
+    <a href="{{ '/projects/' | relative_url }}">View project details <span aria-hidden="true">→</span></a>
+  </section>
+  <section class="platform-section platform-contact" aria-labelledby="conversation-title">
+    <h2 id="conversation-title">A useful conversation starts with a real problem.</h2>
+    <p>I welcome conversations about senior engineering work, product building and the intersection of software and industrial technology.</p>
+    <a href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">→</span></a>
+  </section>
+</main>

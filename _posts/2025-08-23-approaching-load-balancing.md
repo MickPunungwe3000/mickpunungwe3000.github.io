@@ -1,4 +1,5 @@
 ---
+published: true
 title: "Approaching load balancing"
 date: 2025-08-23
 layout: single
