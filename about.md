@@ -1,52 +1,39 @@
 ---
 layout: single
-title: "About Me"
+title: "About Maverik"
 permalink: /about/
+description: "Senior Software Engineer with experience across Java, enterprise banking, product development and embedded systems."
 author_profile: true
 ---
 
-I'm **Maverik Punungwe**, a seasoned software engineer and systems architect based in South Africa, originally from Zimbabwe.
+I'm **Maverik Punungwe**, a Senior Software Engineer based in South Africa, originally from Zimbabwe. I have over eight years of experience across enterprise software, product development and industrial technology.
 
-For the past 7 years, I’ve been writing production-grade software , not demo apps or tutorials, but **real systems** that businesses depend on. My primary weapon of choice is **Java + Spring Boot**, but I’ve also built with **C#, C, Dart**, and multiple front-end stacks.
+I currently work through **Dariel** in **First National Bank's enterprise technology environment**, with a focus on Java, Spring Boot, microservices and distributed systems.
 
-I started out in **Electronic Engineering**, which gave me a solid grasp of circuits, embedded systems, and the low-level world, and that mindset still shapes how I write code: clean, efficient, resilient.
+## From electronics to enterprise software
 
----
+My background is in Electronic Engineering. Working with embedded software, electronics and hardware integration taught me to pay attention to constraints that software alone can sometimes hide: power, timing, physical behaviour and operating conditions.
 
-# What I Do
+That experience spans digital signage, battery monitoring, queue management, industrial automation and software products. It continues to inform how I approach backend systems, databases, performance and reliability.
 
-- **Java Backend Development**  REST APIs, microservices, queue-based systems  
-- **Spring Boot Architecture**  modular, scalable, production-ready systems  
-- **Embedded Software + IoT**  sensor networks, custom hardware integration  
-- **Full-Stack Dev**  Java specialist
-- **Digital Signage Systems**  Built the backend for the **market leader in LED billboards** across Southern Africa
+## Building products that businesses use
 
-If you’ve seen a digital billboard in South Africa… chances are, my system is running behind it. I designed and shipped the core infrastructure for the dominant signage company , from player software to scheduling, streaming, and update protocols.
----
-# What Drives Me
+My product experience includes the development of **Polycloud**, a commercial digital signage platform. I'm interested in the full path from a customer problem to software that can be deployed, operated and maintained.
 
-I believe in building things that **actually work**. That survive pressure. That deliver value without crumbling under load.
-I’m obsessed with:
-- **Clean Code**  because maintenance is everything  
-- **System Design**  because scale always comes faster than expected  
-- **Teaching by writing**  because the best way to master something is to explain it  
+The relationship between engineering choices and commercial value matters to me: what a system costs to run, how reliably it serves users, and how easily it can change as a business learns.
 
-This blog is me passing the torch backward, sharing the tools, principles, and mindset shifts that helped me avoid years of detours.
----
-# Outside of Code
+[Explore my engineering projects]({{ '/projects/' | relative_url }}).
 
-- I read everything from **MJ DeMarco** to **Robert Kiyosaki**  
-- I design electronic circuits and IoT prototypes for fun  
-- I lift weights, write comic scripts, and kick around a soccer ball  
-- I’ve solo traveled to **Zanzibar**, **Kenya**, and **Mozambique**
----
-# Some other facts about me
+## What I write about
 
-- 🎓 **BTech in Electronic Engineering**, Harare Institute of Technology (2016)  
-- 🧰 Tech Stack: Java, Spring, C#, C, Python, Kotlin, Dart, Flutter, SQL Server, embedded systems  
-- 🧠 Interests: Clean code, system architecture, robotics, energy tech, mindset and personal growth  
-- 💼 Based in: South Africa  
-- 📬 Contact: [maverick.punungwe@gmail.com](mailto:maverick.punungwe@gmail.com)  
----
-> “I build software that ships, scales, and stays clean.”
+I write about software architecture, product engineering, industrial technology, business systems and professional growth. My aim is to explain the reasoning behind decisions, including the constraints and trade-offs that make simple answers less useful in practice.
 
+Mentoring and technical knowledge sharing are also part of how I learn. Some articles are technical guides; others are reflections on judgement, collaboration and life as an engineer. The historical posts remain part of that journey.
+
+[Browse the writing]({{ '/blog/' | relative_url }}) or [explore the editorial topics]({{ '/topics/' | relative_url }}).
+
+## Beyond the day-to-day work
+
+My interests include robotics, electronic circuits, manufacturing, financial infrastructure, entrepreneurship and African technology markets. Outside engineering, I enjoy weightlifting, music and soccer.
+
+For professional opportunities, product discussions or potential collaboration, [get in touch]({{ '/contact/' | relative_url }}).
